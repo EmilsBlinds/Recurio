@@ -1,6 +1,7 @@
 # Recurio
 
 **Tēma**
+
 Mobilā android aplikācija paradumu veidošanai un izsekošanai
 
 **Pamata funkcionalitātes**
