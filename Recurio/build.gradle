@@ -4,11 +4,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        jcenter {
-            content {
-                includeGroup("org.jetbrains.trovej4")
-            }
-        }
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.1'
@@ -23,10 +19,7 @@ buildscript {
 }
 
 allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+
 }
 
 task clean(type: Delete) {
